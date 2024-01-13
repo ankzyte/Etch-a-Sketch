@@ -3,6 +3,7 @@ body{
     padding:0;
     background-color:darkgray;
     display: flex;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -12,9 +13,11 @@ body{
     width:640px;
     height: 640px;
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .container div{
-    display:block;
-    background-color: black;
+    background-color: white;
 }
